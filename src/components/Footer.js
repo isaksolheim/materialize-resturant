@@ -18,7 +18,7 @@ function Footer() {
           <div class="col l3 s12">
             <h5 class="white-text">Følg oss!</h5>
             <ul>
-              <li><a class="white-text" href="/"><i className="fab fa-facebook"></i> Facebook</a></li>
+              <li><a class="white-text" href="https://www.facebook.com/tromsopizza/"><i className="fab fa-facebook"></i> Facebook</a></li>
             </ul>
           </div>
         </div>
