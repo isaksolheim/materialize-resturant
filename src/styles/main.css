@@ -20,6 +20,9 @@ nav {
 /* HEADER */
 .header {
   color: white;
+  font-family: adobe-caslon-pro, serif;
+  font-weight: 600;
+  font-style: italic
 }
 #aaa {
   margin-top: 180px;
@@ -31,7 +34,7 @@ nav {
   background-color: #bc0606;
 }
 #download-button:hover {
-  background-color: #e36712;
+  background-color: #e1d800;
 }
 
 /* ABOUT */
