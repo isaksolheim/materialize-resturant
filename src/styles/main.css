@@ -1,0 +1,64 @@
+#logo-container {
+  color: #333;
+}
+
+#link {
+  color: #333;
+}
+
+#menu {
+  color: #333;
+}
+
+.menu {
+  padding: 12px;
+}
+
+.menu .category-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.menu .items {
+  margin-bottom: 40px;
+}
+
+.menu .items .item {
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 28px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+p {
+  margin: 0;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.item.min h3 {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 800px) {
+  .menu {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .items {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
