@@ -42,12 +42,24 @@ h5 {
   font-family: adobe-caslon-pro, serif;
   font-weight: 600;
   font-size: 35px;
+  color: black;
 }
 i {
   color: #bc0606;
 }
 
 /* FOOTER */
+#fa-link {
+  color: #333;
+}
+
+#tel {
+  color: #333;
+}
+
+.fa-facebook {
+  color: #333;
+}
 .page-footer {
   background-color: #bc0606;
 }
@@ -59,6 +71,7 @@ i {
 /* MENU */
 hr {
   color: #bc0606;
+  margin-bottom: 30px;
 }
 .menu {
   padding: 12px;
@@ -68,7 +81,7 @@ hr {
   text-transform: uppercase;
   text-align: center;
   font-size: 40px;
-  margin-top: 23px;
+  margin-bottom: 14px;
   font-family: adobe-caslon-pro, serif;
   font-weight: 600;
   font-style: italic
@@ -80,7 +93,6 @@ hr {
 
 .menu .items .item {
   margin-bottom: 10px;
-  
 }
 
 h2 {

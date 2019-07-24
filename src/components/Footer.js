@@ -8,7 +8,7 @@ function Footer() {
           <div class="col l6 s12">
             <h5 class="white-text">Om oss</h5>
             <ul>
-              <li><i className="fas fa-phone"></i> 400 09 022</li>
+              <li><i className="fas fa-phone"></i> <a id="tel" href="tel:+4740009022">400 09 022</a></li>
               <li><i className="fas fa-map-marker-alt"></i> Huldervegen 2, 9016 Tromsø</li>
               <li><i className="fas fa-clock"></i> Mandag-Torsdag 14.00 til 23.00</li>
               <li><i className="fas fa-clock"></i> Fredag-Lørdag 14.00 til 23.30</li>
@@ -18,7 +18,7 @@ function Footer() {
           <div class="col l3 s12">
             <h5 class="white-text">Følg oss!</h5>
             <ul>
-              <li><a class="white-text" href="https://www.facebook.com/tromsopizza/"><i className="fab fa-facebook"></i> Facebook</a></li>
+              <li><a id="fa-link" href="https://www.facebook.com/tromsopizza/"><i className="fab fa-facebook"></i> Facebook</a></li>
             </ul>
           </div>
         </div>

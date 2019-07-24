@@ -6,16 +6,18 @@ function About() {
       <div class="section">
 
         <div class="row">
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center brown-text"><i className="fas fa-map-marker-alt"></i></h2>
-              <h5 class="center">Adresse</h5>
+          <a href="https://www.google.com/maps/place/troms%C3%B8+pizzeria/@69.6703489,18.9187574,17z/data=!3m1!4b1!4m5!3m4!1s0x45c4c5d1a972faf9:0x64a29b8f9eb3cf9f!8m2!3d69.6703489!4d18.9209461">
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <h2 class="center brown-text"><i className="fas fa-map-marker-alt"></i></h2>
+                <h5 class="center">Adresse</h5>
 
-              <p class="light center">
-                Huldervegen 2, 9016 Tromsø
-              </p>
+                <p class="light center">
+                  Huldervegen 2, 9016 Tromsø
+                </p>
+              </div>
             </div>
-          </div>
+          </a>
 
           <div class="col s12 m4">
             <div class="icon-block">
