@@ -1,15 +1,49 @@
+/* NAVBAR */
 #logo-container {
   color: #333;
 }
-
 #link {
   color: #333;
 }
-
 #menu {
   color: #333;
 }
 
+/* HEADER */
+.header {
+  color: white;
+}
+#aaa {
+  margin-top: 180px;
+}
+.parallax {
+  filter: brightness(55%);
+}
+#download-button {
+  background-color: #bc0606;
+}
+#download-button:hover {
+  background-color: #e36712;
+}
+
+/* ABOUT */
+i {
+  color: #bc0606;
+}
+
+/* FOOTER */
+.page-footer {
+  background-color: #bc0606;
+}
+
+.page-footer i {
+  color: white;
+}
+
+/* MENU */
+hr {
+  color: #bc0606;
+}
 .menu {
   padding: 12px;
 }

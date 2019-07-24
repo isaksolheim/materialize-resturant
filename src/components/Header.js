@@ -6,12 +6,12 @@ function Header() {
       <div class="section no-pad-bot">
         <div class="container">
           <br/><br/>
-          <h1 class="header center teal-text text-lighten-2">Tromsø Pizzeria</h1>
+          <h1 class="header center">Tromsø Pizzeria</h1>
           <div class="row center">
-            <h5 class="header col s12 light">Ekte Italiensk Pizza</h5>
+            <h5 class="header col s12">Ekte Italiensk Pizza</h5>
           </div>
           <div class="row center">
-            <a href="/" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">MENY</a>
+            <a href="/" id="download-button" class="btn-large waves-effect waves-light">MENY</a>
           </div>
           <br/><br/>
         </div>
