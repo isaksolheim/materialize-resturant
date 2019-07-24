@@ -38,7 +38,7 @@ function About() {
               <h5 class="center">Telefon</h5>
 
               <p class="light center">
-                400 09 022
+                <a href="tef:+4740009022">400 09 022</a>
               </p>
             </div>
           </div>
