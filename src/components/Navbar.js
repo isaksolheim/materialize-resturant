@@ -5,7 +5,7 @@ function Navbar() {
   return(
     <nav class="white" role="navigation">
       <div class="nav-wrapper container">
-        <a id="logo-container" href="/" class="brand-logo">Tromsø Pizzeria</a>
+        <a id="logo-container" href="/" class="brand-logo"><img id="logo" src={'./images/logo.png'} alt="logo" /></a>
         <ul class="right hide-on-med-and-down">
           <li>
             <Link
