@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 function Navbar() {
   return(
@@ -6,13 +7,57 @@ function Navbar() {
       <div class="nav-wrapper container">
         <a id="logo-container" href="/" class="brand-logo">Tromsø Pizzeria</a>
         <ul class="right hide-on-med-and-down">
-          <li><a id="link" href="/">Om Oss</a></li>
-          <li><a id="link" href="/">Meny</a></li>
+          <li>
+            <Link
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duratio={400}
+              id="link">
+                Om Oss
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="meny"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duratio={400}
+              id="link">
+                Meny
+            </Link>
+          </li>
         </ul>
 
         <ul id="nav-mobile" class="sidenav">
-          <li><a id="link" href="/">Om Oss</a></li>
-          <li><a id="link" href="/">Meny</a></li>
+          <li>
+            <Link
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duratio={400}
+              id="link">
+                Om Oss
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="meny"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duratio={400}
+              id="link">
+                Meny
+            </Link>
+          </li>
         </ul>
         <a id="menu" href="/" data-target="nav-mobile" class="sidenav-trigger"><i class="fas fa-chevron-circle-down"></i></a>
       </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 function Header() {
   return(
@@ -11,7 +12,17 @@ function Header() {
             <h5 class="header col s12">Ekte Italiensk Pizza</h5>
           </div>
           <div class="row center">
-            <a href="/" id="download-button" class="btn-large waves-effect waves-light">MENY</a>
+            <Link
+              activeClass="active"
+              to="meny"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duratio={400}
+              className="btn-large waves-effect"
+              id="download-button">
+                Meny
+            </Link>
           </div>
           <br/><br/>
         </div>

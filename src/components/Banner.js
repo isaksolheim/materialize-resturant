@@ -2,8 +2,8 @@ import React from 'react';
 
 function Banner() {
   return(
-    <div id="index-banner" class="parallax-container">
-      <div class="section no-pad-bot">
+    <div id="index-banner menu" class="parallax-container">
+      <div class="section no-pad-bot" id="meny">
         <div class="container">
           <h1 id="aaa" class="header center">MENY</h1>
         </div>
