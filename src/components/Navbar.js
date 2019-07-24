@@ -20,16 +20,75 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link
-              activeClass="active"
-              to="meny"
-              spy={true}
-              smooth={true}
-              offset={0}
-              duratio={400}
-              id="link">
-                Meny
-            </Link>
+            <div className="drop">
+              <Link
+                activeClass="active"
+                to="meny"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duratio={400}
+                id="link"
+                className="dropbtn">
+                  Meny
+              </Link>
+              <div className="dropdown-con">
+                <Link
+                  activeClass="active"
+                  to="pizza"
+                  spy={true}
+                  smooth={true}
+                  offset={-50}
+                  duratio={400}>
+                    Pizza 
+                </Link>
+                <Link
+                  activeClass="active"
+                  to="grillretter"
+                  spy={true}
+                  smooth={true}
+                  offset={-50}
+                  duratio={400}>
+                    Grillretter 
+                </Link>
+                <Link
+                  activeClass="active"
+                  to="kebabretter"
+                  spy={true}
+                  smooth={true}
+                  offset={-50}
+                  duratio={400}>
+                    Kebabretter 
+                </Link>
+                <Link
+                  activeClass="active"
+                  to="ekstra"
+                  spy={true}
+                  smooth={true}
+                  offset={-50}
+                  duratio={400}>
+                    Ekstra 
+                </Link>
+                <Link
+                  activeClass="active"
+                  to="smaretter"
+                  spy={true}
+                  smooth={true}
+                  offset={-50}
+                  duratio={400}>
+                    Småretter
+                </Link>
+                <Link
+                  activeClass="active"
+                  to="barnemeny"
+                  spy={true}
+                  smooth={true}
+                  offset={-50}
+                  duratio={400}>
+                    Barnemeny
+                </Link>
+              </div>
+            </div>
           </li>
         </ul>
 
@@ -56,6 +115,62 @@ function Navbar() {
               duratio={400}
               id="link">
                 Meny
+            </Link>
+          </li>
+          <li id="margin">
+            <Link
+              activeClass="active"
+              to="pizza"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duratio={400}>
+                Pizza 
+            </Link>
+            <Link
+              activeClass="active"
+              to="grillretter"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duratio={400}>
+                Grillretter 
+            </Link>
+            <Link
+              activeClass="active"
+              to="kebabretter"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duratio={400}>
+                Kebabretter 
+            </Link>
+            <Link
+              activeClass="active"
+              to="ekstra"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duratio={400}>
+                Ekstra 
+            </Link>
+            <Link
+              activeClass="active"
+              to="smaretter"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duratio={400}>
+                Småretter
+            </Link>
+            <Link
+              activeClass="active"
+              to="barnemeny"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duratio={400}>
+                Barnemeny
             </Link>
           </li>
         </ul>

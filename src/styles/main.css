@@ -1,4 +1,35 @@
 /* NAVBAR */
+.drop {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-con {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-con a {
+  color: black;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-con a:hover {background-color: #ddd;}
+
+.drop:hover .dropdown-con {display: block;}
+
+.drop:hover .dropbtn {background-color: #ddd;}
+
+#margin {
+  margin-left: 20px;
+}
+
 nav {
   height: 120px;
 }
@@ -65,6 +96,33 @@ i {
 }
 
 .page-footer i {
+  color: white;
+}
+
+/* MENU-TOP */
+.categories {
+  border: 1px solid white;
+  border-radius: 2px;
+  text-align: center;
+  border-radius: 2px;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-top: 7px;
+}
+.categories .item {
+  margin: 5px;
+  display: inline-block;
+}
+
+.categories .item a {
+  margin: 10px;
+  color: black;
+  cursor: pointer;
+  font-family: adobe-caslon-pro, serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 30px;
   color: white;
 }
 

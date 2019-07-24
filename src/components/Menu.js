@@ -5,7 +5,7 @@ function Menu() {
     <section className="menu">
       <div className="category">
         <hr />
-        <div className="category-title">Pizza</div>
+        <div id="pizza" className="category-title">Pizza</div>
         <hr />
         <div className="items">
           <div className="item">
@@ -143,7 +143,7 @@ function Menu() {
   
       <div className="category">
         <hr />
-        <div className="category-title">Grillretter</div>
+        <div id="grillretter" className="category-title">Grillretter</div>
         <hr />
         <div className="items">
           <div className="item">
@@ -196,7 +196,7 @@ function Menu() {
 
       <div className="category">
         <hr />
-        <div className="category-title">Kebabretter</div>
+        <div id="kebabretter" className="category-title">Kebabretter</div>
         <hr />
         <div className="items">
           <div className="item">
@@ -224,7 +224,7 @@ function Menu() {
 
       <div className="category">
         <hr />
-        <div className="category-title">Ekstra</div>
+        <div id="ekstra" className="category-title">Ekstra</div>
         <hr />
         <div className="items">
           <div className="item min">
@@ -256,7 +256,7 @@ function Menu() {
 
       <div className="category">
         <hr />
-        <div className="category-title">Småretter</div>
+        <div id="smaretter" className="category-title">Småretter</div>
         <hr />
         <div className="items">
           <div className="item min">
@@ -289,7 +289,7 @@ function Menu() {
 
       <div className="category">
         <hr />
-        <div className="category-title">Barnemeny</div>
+        <div id="barnemeny" className="category-title">Barnemeny</div>
         <p className="center">Barnemenyer inkluderer kuli drikke med surprise gave</p>
         <hr />
         <div className="items">
